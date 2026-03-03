@@ -133,7 +133,7 @@ This project is open source and available for personal and commercial use.
 
 **Mehul**
 - GitHub: [@mehuldotdev](https://github.com/mehuldotdev)
-- Email: hello@mehul.dev
+- Email: mehehehul748@gmail.com
 
 ---
 

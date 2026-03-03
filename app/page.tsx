@@ -341,7 +341,7 @@ export default function HomePage() {
                 GitHub Profile
               </motion.a>
               <motion.a
-                href="mailto:hello@mehul.dev"
+                href="mailto:mehehehul748@gmail.com"
                 variants={buttonVariants}
                 whileHover="hover"
                 whileTap="tap"
