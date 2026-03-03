@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide default cursor when custom cursor is active */
+*,
+*::before,
+*::after,
+html,
+body {
+  cursor: none !important;
+}
+
+* {
+  user-select: text;
+}
+
+/* Yin-Yang Philosophy: Minimal, elegant typography */
+@layer base {
+  * {
+    @apply border-neutral-300;
+  }
+  
+  body {
+    @apply bg-yang-light text-yin-dark antialiased;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom text selection colors */
+  /* Light sections: black text on white selection */
+  ::selection {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  /* Dark sections: white text on black selection */
+  .bg-yin ::selection,
+  .bg-yin-dark ::selection {
+    background-color: #000000;
+    color: #ffffff;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Force hide default cursor - highest priority */
+*,
+*::before,
+*::after,
+html,
+body,
+a,
+button,
+input,
+textarea {
+  cursor: none !important;
+}
+
+/* Custom scrollbar for dark sections */
+.dark-section::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dark-section::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+.dark-section::-webkit-scrollbar-thumb {
+  background: #404040;
+  border-radius: 4px;
+}
+
+.dark-section::-webkit-scrollbar-thumb:hover {
+  background: #525252;
+}
