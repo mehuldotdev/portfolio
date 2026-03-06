@@ -7,7 +7,7 @@
  * - Light (Yang) sections: Projects
  * - Transition zones: About section with gradient
  * 
- * All animations are capped at 0.5 seconds maximum for performance.
+ * All animations are capped at 0.3 seconds maximum for performance.
  * 
  * KEY FILES TO CUSTOMIZE:
  * -----------------------
@@ -19,7 +19,7 @@
  *    - Update contact links
  * 
  * 2. lib/animations.ts
- *    - All Framer Motion variants (strictly ≤ 0.5s)
+ *    - All Framer Motion variants (strictly ≤ 0.3s)
  *    - Hover effects and transitions
  *    - Scroll-triggered animations
  * 
@@ -71,7 +71,7 @@
  * ---------------------
  * 
  * All animations follow these principles:
- * - Maximum duration: 0.5 seconds
+ * - Maximum duration: 0.3 seconds
  * - Smooth, natural easing (cubic-bezier)
  * - No floaty or sluggish transitions
  * - Crisp, snappy, responsive feel
@@ -84,7 +84,7 @@
  *     opacity: 1,
  *     y: 0,
  *     transition: {
- *       duration: 0.5,  // Maximum allowed
+ *       duration: 0.3,  // Maximum allowed
  *       ease: [0.25, 0.1, 0.25, 1]
  *     }
  *   }

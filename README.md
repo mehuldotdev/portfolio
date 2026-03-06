@@ -6,7 +6,7 @@ A minimal, high-performance portfolio website built with Next.js, TypeScript, Ta
 
 - **Yin-Yang Aesthetic**: Seamless contrast between dark and light sections
 - **Minimal Color Palette**: Exclusively black, white, and neutral grays
-- **Performance-First**: All animations ≤ 0.5s for crisp, snappy interactions
+- **Performance-First**: All animations ≤ 0.3s for crisp, snappy interactions
 - **Modern Stack**: Next.js 14 App Router, TypeScript, Tailwind CSS, Framer Motion
 
 ## 🚀 Getting Started
@@ -48,7 +48,7 @@ pnpm dev
 │   ├── page.tsx            # Main portfolio page
 │   └── globals.css         # Global styles & Tailwind directives
 ├── lib/
-│   └── animations.ts       # Framer Motion variants (≤0.5s)
+│   └── animations.ts       # Framer Motion variants (≤0.3s)
 ├── tailwind.config.ts      # Tailwind configuration
 ├── tsconfig.json           # TypeScript configuration
 └── package.json            # Dependencies
@@ -69,7 +69,7 @@ pnpm dev
 - Staggered children animations
 - Hover states with scale and lift effects
 - Smooth page load transitions
-- All animations capped at 0.5s maximum duration
+- All animations capped at 0.3s maximum duration
 
 ### Projects Showcased
 
@@ -98,7 +98,7 @@ Edit the content in [app/page.tsx](app/page.tsx):
 ### Adjust Animations
 
 All animation variants are centralized in [lib/animations.ts](lib/animations.ts). Each variant includes:
-- Duration (max 0.5s)
+- Duration (max 0.3s)
 - Easing function
 - Initial/animate states
 

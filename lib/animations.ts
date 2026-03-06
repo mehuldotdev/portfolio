@@ -2,7 +2,7 @@ import { Variants } from "framer-motion";
 
 /**
  * Framer Motion Animation Variants
- * All animations strictly ≤0.5s for crisp, snappy performance
+ * All animations strictly ≤0.3s for crisp, snappy performance
  * Following Yin-Yang philosophy: smooth but swift
  */
 
@@ -90,7 +90,7 @@ export const projectCardVariants: Variants = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.5,
+      duration: 0.3,
       ease: [0.25, 0.1, 0.25, 1],
     },
   },
@@ -113,7 +113,7 @@ export const slideInLeftVariants: Variants = {
     opacity: 1,
     x: 0,
     transition: {
-      duration: 0.5,
+      duration: 0.3,
       ease: "easeOut",
     },
   },
@@ -129,7 +129,7 @@ export const slideInRightVariants: Variants = {
     opacity: 1,
     x: 0,
     transition: {
-      duration: 0.5,
+      duration: 0.3,
       ease: "easeOut",
     },
   },
@@ -195,7 +195,7 @@ export const sectionVariants: Variants = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.5,
+      duration: 0.3,
       ease: [0.25, 0.1, 0.25, 1],
     },
   },
@@ -225,7 +225,7 @@ export const pageVariants: Variants = {
   animate: {
     opacity: 1,
     transition: {
-      duration: 0.5,
+      duration: 0.3,
       ease: "easeInOut",
     },
   },

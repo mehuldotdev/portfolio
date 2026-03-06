@@ -21,14 +21,14 @@
  *    - Animated text entries (fadeInUp, fadeInDown)
  *    - CTA buttons with hover states
  *    - Scroll indicator animation
- *    Duration: All animations ≤ 0.5s
+ *    Duration: All animations ≤ 0.3s
  * 
  * 2. ABOUT SECTION (Transition Zone)
  *    - Gradient: from-yin → via-neutral-900 → to-yang-light
  *    - Two-column layout (description + tech stack)
  *    - Scroll-triggered reveal animation
  *    - Tech stack badges with hover effects
- *    Duration: 0.5s reveal, 0.2s hover
+ *    Duration: 0.3s reveal, 0.2s hover
  * 
  * 3. PROJECTS SECTION (Yang - Light Mode)
  *    - Bright background (#fafafa)
@@ -39,7 +39,7 @@
  *      * Subtle gradient overlay on hover
  *      * Tech stack badges
  *      * Dual CTA buttons (View/Source)
- *    Duration: 0.5s reveal, 0.3s hover
+ *    Duration: 0.3s reveal, 0.3s hover
  * 
  * 4. FOOTER SECTION (Return to Yin)
  *    - Dark background matching hero
@@ -52,7 +52,7 @@
  * ANIMATION SYSTEM
  * ----------------
  * 
- * Strict Performance Rule: Maximum 0.5s for all animations
+ * Strict Performance Rule: Maximum 0.3s for all animations
  * 
  * Animation Types:
  * 
@@ -130,14 +130,14 @@
  * Available in lib/animations.ts:
  * 
  * - containerVariants: Staggered children (0.1s stagger)
- * - fadeInUpVariants: Fade + slide up (0.5s)
+ * - fadeInUpVariants: Fade + slide up (0.3s)
  * - fadeInDownVariants: Fade + slide down (0.4s)
- * - projectCardVariants: Card reveal + hover lift (0.5s/0.3s)
- * - slideInLeftVariants: Slide from left (0.5s)
- * - slideInRightVariants: Slide from right (0.5s)
+ * - projectCardVariants: Card reveal + hover lift (0.3s/0.3s)
+ * - slideInLeftVariants: Slide from left (0.3s)
+ * - slideInRightVariants: Slide from right (0.3s)
  * - buttonVariants: Scale on hover/tap (0.2s/0.1s)
  * - listItemVariants: Tech stack items (0.4s)
- * - sectionVariants: Section reveals (0.5s)
+ * - sectionVariants: Section reveals (0.3s)
  * 
  * All use optimized easing: cubic-bezier or "easeOut"
  * 

@@ -16,7 +16,7 @@ export const FloatingDock = ({ items }: { items: DockItem[] }) => {
     <motion.div
       initial={{ y: 100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.5, delay: 0.3 }}
+      transition={{ duration: 0.3, delay: 0.3 }}
       className="fixed bottom-8 left-1/2 -translate-x-1/2 z-[100]"
     >
       <div className="flex items-end gap-2 px-4 py-3 bg-neutral-900/80 backdrop-blur-md border border-neutral-700 rounded-full">
